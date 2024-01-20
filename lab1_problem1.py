@@ -1,0 +1,1 @@
+print("alikh crush")
