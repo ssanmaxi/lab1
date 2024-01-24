@@ -1,1 +1,1 @@
-print("alikh crush")
+print("Hello, world!")
