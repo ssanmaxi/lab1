@@ -1,2 +1,2 @@
-if 5 > 2:
-    print("YES")
+x = ("apple", "banana", "cherry")
+print(type(x))
