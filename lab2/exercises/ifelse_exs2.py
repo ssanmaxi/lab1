@@ -1,4 +1,4 @@
 a = 50
 b = 10
-if a > b:
+if a != b:
     print("Hello World")
