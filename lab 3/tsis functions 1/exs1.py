@@ -1,14 +1,6 @@
-class User:
-    def getString(self , a):
-        return str(a)
+a = int(input())
+def my_func(a):
+    o = a * 28.3495231
+    print(o)
 
-    def printString(self , a):
-        print(a.upper())
-
-
-
-user = User()
-
-str1 = user.getString('Apple')
-
-user.printString("apple")
+my_func(a)
