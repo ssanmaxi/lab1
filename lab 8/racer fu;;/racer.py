@@ -25,8 +25,8 @@ game_over_text_label = font.render('Game over!', True, WHITE)  # game over label
 background = pygame.image.load('street.png')  # background image
 pygame.mixer.init()  # initializing music component
 pygame.mixer.music.set_volume(0.45)  # volume of music
-pygame.mixer.music.load('lab9_racer_background.wav')  # music that will be played while playing the game
-pygame.mixer.music.play(loops=10 ** 9)  # approximately infinite music
+# pygame.mixer.music.load('_lab9_racer_background.wav_background.wav')  # music that will be played while playing the game
+# pygame.mixer.music.play(loops=10 ** 9)  # approximately infinite music
 
 pygame.display.set_caption('GAME')  # the title of window
 
@@ -203,9 +203,9 @@ while not game_over:  # while game is playing
         simple_coins += 1  # variable of number of touched simple coins
         generate_coin()  #new simple coin will appear
 
-    if pygame.sprite.spritecollideany(player, enemies):  # collision with enemy car
+    # if pygame.sprite.spritecollideany(player, enemies):  # collision with enemy car
         pygame.mixer.music.stop()
-        pygame.mixer.Sound('lab9_racer_crash.wav').play()  # crash music appears
+        pygame.mixer.Sound('tsis9_racer_lab9_racer_crash.wav').play()  # crash music appears
         time.sleep(1)  # wait of 1 second
 
         screen.fill((69, 172, 116))  # unique green color on a backgroung
